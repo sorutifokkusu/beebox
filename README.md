@@ -29,3 +29,30 @@ You can run directly from run.bat
 
 7- Quit: Will quit.
 
+
+-- Türkçe --
+Python dilinde yazılmış minimal bir uygulama. Uygulama json kullanılarak en minimal kalmak için tasarlanmıştır.
+Kayıtlar json dosyasına yazılır.
+
+-Gereksinimler-
+Python kurmanız gerekir.
+Eğerki Python ile json modülü gelmiyorsa ayrıca pip ile json modülünü indirmeniz gerekir.
+
+-Windows-
+Direk olarak run.bat'ı çalıştırıp kullanabilirsiniz.
+
+-Kullanım-
+
+1- Kovan ekle: Kovan ekler. Şu anlık aldığı değerler Çıta sayısı(SAYI OLMAK ZORUNDA), durumu(istediğinizi girebilirsiniz),İlaç durumu(kesinlikle büyük küçük (True) veya (False) alabilir.
+
+2- Kovan seç: Bu seçenek sizden bir numara değeri alıp o numaraya ait kovan durumunu gösterir seçili kalmaz!!
+
+3- Tüm kovan durumunu göster: Tüm kayıtlı kovanların durumunu gösterir.
+
+4- Kovanı sil: Kovan bilgisini siler, numara değerine göre seçer.
+
+5- Kovanı düzenle: Kovanı düzenlemek için kullanılır, numara değerine göre seçer.
+
+6- First Time Setup: Bu mod eğerki json yok veya hatalı ise otomatik başlar, dosyayı oluşturur ve ilk kaydı sizden ister
+
+7- Çıkış: Uygulamadan çıkar.
