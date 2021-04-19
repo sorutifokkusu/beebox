@@ -16,10 +16,16 @@ You can run directly from run.bat
 -Usage-
 
 1- Add hive: This will add a hive with its values and will auto save it.
+
 2- Choose Hive: You can choose a hive and show its values.
+
 3- Show all Hive: It will show every hive which has been stored.
+
 4- Delete Hive: It will delete the hive with the matching number auto saved.
+
 5- Edit Hive: It will edit the hive with the matching number auto saved.
+
 6- First Time Setup: This will make the first data entry to JSON. Required because of every other module tries to get the data from JSON file, which when empty will result in error. ( Could be improved ) (There is a first time mode which activates when those situation applies - no json file , json file wrong format , json file empty - it will create or recreate the json file and will ask you for first entry)
+
 7- Quit: Will quit.
 
