@@ -1,8 +1,8 @@
 echo "Install script starting"
-
+sleep 5
 geom disk list
-
-read -r "device?Please write device name: "
+sleep 5
+read -r "device?Please write device name:"
 DCP3=($device"p3")
 DCP2=($device"p2")
 DCP1=($device"p1")
