@@ -1,3 +1,4 @@
+#Going to rewrite this project with sql and maybe transform it to a web app
 from beebox import Beebox
 import json
 import time
