@@ -34,9 +34,14 @@ while True:
         sira=calculate.kovansayi()
         print(f"Otomatik tanımlanmış kovan no = ",sira)
         time.sleep(1)
-
+    # cita should be between 1-9 
         try:
             cita = int(input("Çıta sayısı: "))
+            if cita < 0:
+                raise ValueError
+            elif cita > 10:
+                raise ValuError
+         
 
         except ValueError:
             print("Lütfen çıta sayıyla değeri girin\n")
